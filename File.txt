@@ -16,3 +16,87 @@
    19  history >> ./NatalyNykytiyk/File.txt
    20  jmg;ijtgotijgo
    21  .lfdxgjmrokhgjmotgik
+    1   git status
+    2  cd ./Desctop
+    3  ls
+    4  mkdir 13121983
+    5  cd 13121983
+    6  git clone https://github.com/NatalyNykytiyk/NatalyNykytiyk.git
+    7  cd 13121983
+    8  ls
+    9  git status
+   10  cd step first
+   11  cd step_first
+   12  history
+   13  history >
+   14  History>>
+   15  history >
+   16  History >>
+   17  hystory >>File.txt
+   18  ls
+   19  history >> ./NatalyNykytiyk/File.txt
+   20  cd NatalyNykytiyk/
+   21  ls
+   22  cat File.txt 
+   23  git add File.txt
+   24  cat File.txt
+   25  git add
+   26  git status
+   27  git config core.autocrif trye
+   28  git config core.autocrif true
+   29  git commit File.txt
+   30  git commit File.txt
+   31  git commit -m "Natalia" File.txt
+   32  git push
+   33  git pull
+   34  git add File.txt
+   35  git status
+   36  git pull
+   37  git log
+   38  git show b058698c884316658c46117dddc86a74acd4df3e
+   39  git log --author
+   40  git log --author NatalyNykytyuk
+   41  history >>File.txt
+    1   git status
+    2  cd ./Desctop
+    3  ls
+    4  mkdir 13121983
+    5  cd 13121983
+    6  git clone https://github.com/NatalyNykytiyk/NatalyNykytiyk.git
+    7  cd 13121983
+    8  ls
+    9  git status
+   10  cd step first
+   11  cd step_first
+   12  history
+   13  history >
+   14  History>>
+   15  history >
+   16  History >>
+   17  hystory >>File.txt
+   18  ls
+   19  history >> ./NatalyNykytiyk/File.txt
+   20  cd NatalyNykytiyk/
+   21  ls
+   22  cat File.txt 
+   23  git add File.txt
+   24  cat File.txt
+   25  git add
+   26  git status
+   27  git config core.autocrif trye
+   28  git config core.autocrif true
+   29  git commit File.txt
+   30  git commit File.txt
+   31  git commit -m "Natalia" File.txt
+   32  git push
+   33  git pull
+   34  git add File.txt
+   35  git status
+   36  git pull
+   37  git log
+   38  git show b058698c884316658c46117dddc86a74acd4df3e
+   39  git log --author
+   40  git log --author NatalyNykytyuk
+   41  history >>File.txt
+   42  history >> ./NatalyNykytiyk/File.txt
+   43   history >> File.txt
