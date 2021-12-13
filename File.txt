@@ -10,10 +10,7 @@
    10  cd step first
    11  cd step_first
    12  history
-   13  history >
-   14  History>>
-   15  history >
-   16  History >>
+ 
    17  hystory >>File.txt
    18  ls
    19  history >> ./NatalyNykytiyk/File.txt
