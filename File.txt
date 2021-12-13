@@ -1,0 +1,19 @@
+    1   git status
+    2  cd ./Desctop
+    3  ls
+    4  mkdir 13121983
+    5  cd 13121983
+    6  git clone https://github.com/NatalyNykytiyk/NatalyNykytiyk.git
+    7  cd 13121983
+    8  ls
+    9  git status
+   10  cd step first
+   11  cd step_first
+   12  history
+   13  history >
+   14  History>>
+   15  history >
+   16  History >>
+   17  hystory >>File.txt
+   18  ls
+   19  history >> ./NatalyNykytiyk/File.txt
