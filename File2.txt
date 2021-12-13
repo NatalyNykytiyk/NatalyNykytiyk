@@ -1,2 +1,615 @@
-hjjhhjjhhjhj
-nhxdxgdjntmfgun
+student@PC-P-06 MINGW64 ~
+$ cd ./
+Display all 47 possibilities? (y or n)
+
+student@PC-P-06 MINGW64 ~
+$ pwd
+/c/Users/student
+
+student@PC-P-06 MINGW64 ~
+$ cd ./13121983/
+File.txt        NatalyNykytiyk/
+
+student@PC-P-06 MINGW64 ~
+$ cd ./13121983/NatalyNykytiyk/
+.git/                                               File.txt
+
+student@PC-P-06 MINGW64 ~
+$ cd ./13121983/NatalyNykytiyk/
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   File.txt
+        new file:   File2.txt
+
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master)
+$ git push
+Everything up-to-date
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master)
+$ git commit -am 'Natalia"
+> bash: unexpected EOF while looking for matching `''
+bash: syntax error: unexpected end of file
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master)
+$ git commit -am "dsdsd"
+[master 4451b7a] dsdsd
+ Committer: Студент <student@ITStep.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 2 insertions(+)
+ create mode 100644 File2.txt
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master)
+$ git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 404 bytes | 404.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/NatalyNykytiyk/NatalyNykytiyk.git
+   fd43b2c..4451b7a  master -> master
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   File.txt
+        modified:   File2.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master)
+$ git add --all
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master)
+$ git commit --all
+Aborting commit due to empty commit message.
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   File.txt
+        modified:   File2.txt
+
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master)
+$ git commit --all
+Aborting commit due to empty commit message.
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master)
+$ git commit -am "messagw"
+[master cf08f87] messagw
+ Committer: Студент <student@ITStep.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 3 insertions(+), 6 deletions(-)
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master)
+$ git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 453 bytes | 453.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/NatalyNykytiyk/NatalyNykytiyk.git
+   4451b7a..cf08f87  master -> master
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master)
+$ git pull
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 653 bytes | 38.00 KiB/s, done.
+From https://github.com/NatalyNykytiyk/NatalyNykytiyk
+   cf08f87..1c89bd4  master     -> origin/master
+Updating cf08f87..1c89bd4
+Fast-forward
+ File3 | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 File3
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master)
+$ git push
+To https://github.com/NatalyNykytiyk/NatalyNykytiyk.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/NatalyNykytiyk/NatalyNykytiyk.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master)
+$ git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 649 bytes | 16.00 KiB/s, done.
+From https://github.com/NatalyNykytiyk/NatalyNykytiyk
+   1c89bd4..71dc1fd  master     -> origin/master
+error: Your local changes to the following files would be overwritten by merge:
+        File3
+Please commit your changes or stash them before you merge.
+Aborting
+Updating 1c89bd4..71dc1fd
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master)
+$ git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 641 bytes | 16.00 KiB/s, done.
+From https://github.com/NatalyNykytiyk/NatalyNykytiyk
+   71dc1fd..98172a9  master     -> origin/master
+error: Your local changes to the following files would be overwritten by merge:
+        File3
+Please commit your changes or stash them before you merge.
+Aborting
+Updating 1c89bd4..98172a9
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master)
+$ git pull
+error: Your local changes to the following files would be overwritten by merge:
+        File3
+Please commit your changes or stash them before you merge.
+Aborting
+Updating 1c89bd4..98172a9
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master)
+$ git commit -m "natali" File3
+[master a5157c7] natali
+ Committer: Студент <student@ITStep.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master)
+$ git pull
+Auto-merging File3
+CONFLICT (content): Merge conflict in File3
+Automatic merge failed; fix conflicts and then commit the result.
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master|MERGING)
+$ git commit -m "Natali" File3
+fatal: cannot do a partial commit during a merge.
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master|MERGING)
+$ git pull
+error: Pulling is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict.
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master|MERGING)
+$ git commit -m "Natalia" File3
+fatal: cannot do a partial commit during a merge.
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master|MERGING)
+$ git pull
+error: Pulling is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict.
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master|MERGING)
+$ ls
+File.txt  File2.txt  File3  QEC-ChecklistGoogletranslateNataly-121221-1601.pdf
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master|MERGING)
+$ pwd
+/c/Users/student/13121983/NatalyNykytiyk
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master|MERGING)
+$ git status
+On branch master
+Your branch and 'origin/master' have diverged,
+and have 1 and 2 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+        both modified:   File3
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master|MERGING)
+$ ^C
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master|MERGING)
+$ git commit -m "Natali"
+error: Committing is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict.
+U       File3
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master|MERGING)
+$ git branch devlop
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master|MERGING)
+$ git branch develop
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master|MERGING)
+$ git merge --abort
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master)
+$ git branch
+  develop
+  devlop
+* master
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master)
+$ git checkout dev
+develop   devlop
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master)
+$ git checkout devlop
+Switched to branch 'devlop'
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (devlop)
+$ git commit -m "Nataly"
+On branch devlop
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        test.docx
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (devlop)
+$ git add test.docx
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (devlop)
+$ git commit -m "Nataly"
+[devlop 1ec20ef] Nataly
+ Committer: Студент <student@ITStep.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test.docx
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (devlop)
+$ git push
+fatal: The current branch devlop has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin devlop
+
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (devlop)
+$ git push -u origin devlop
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 510 bytes | 255.00 KiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+remote:
+remote: Create a pull request for 'devlop' on GitHub by visiting:
+remote:      https://github.com/NatalyNykytiyk/NatalyNykytiyk/pull/new/devlop
+remote:
+To https://github.com/NatalyNykytiyk/NatalyNykytiyk.git
+ * [new branch]      devlop -> devlop
+Branch 'devlop' set up to track remote branch 'devlop' from 'origin'.
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (devlop)
+$ git checkout master
+Switched to branch 'master'
+Your branch and 'origin/master' have diverged,
+and have 1 and 2 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master)
+$ git marge devlop
+git: 'marge' is not a git command. See 'git --help'.
+
+The most similar command is
+        merge
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master)
+$ git pull
+Auto-merging File3
+CONFLICT (content): Merge conflict in File3
+Automatic merge failed; fix conflicts and then commit the result.
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master|MERGING)
+$ git pull
+error: Pulling is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict.
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master|MERGING)
+$
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master|MERGING)
+$ git rm
+File.txt
+File2.txt
+File3
+QEC-ChecklistGoogletranslateNataly-121221-1601.pdf
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master|MERGING)
+$ git rm
+File.txt
+File2.txt
+File3
+QEC-ChecklistGoogletranslateNataly-121221-1601.pdf
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master|MERGING)
+$ git rm
+File.txt
+File2.txt
+File3
+QEC-ChecklistGoogletranslateNataly-121221-1601.pdf
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master|MERGING)
+$ git rm File3
+rm 'File3'
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master|MERGING)
+$ git pull
+error: You have not concluded your merge (MERGE_HEAD exists).
+hint: Please, commit your changes before merging.
+fatal: Exiting because of unfinished merge.
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master|MERGING)
+$ git merge --abort
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master)
+$ git pull
+remote: Enumerating objects: 2, done.
+remote: Counting objects: 100% (2/2), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 2 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (2/2), 1.20 KiB | 3.00 KiB/s, done.
+From https://github.com/NatalyNykytiyk/NatalyNykytiyk
+   98172a9..18b7f74  master     -> origin/master
+   1ec20ef..314998a  devlop     -> origin/devlop
+Updating a5157c7..18b7f74
+Fast-forward
+ test.docx | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test.docx
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master)
+$ git branch -m devlop develop
+fatal: A branch named 'develop' already exists.
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master)
+$ git branch -m devlop develop1
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master)
+$ git branch -d devlop
+error: branch 'devlop' not found.
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master)
+$ git pull
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 946 bytes | 0 bytes/s, done.
+From https://github.com/NatalyNykytiyk/NatalyNykytiyk
+   18b7f74..ba5ca87  master     -> origin/master
+Updating 18b7f74..ba5ca87
+Fast-forward
+ README.md | 16 ++++++++++++++++
+ 1 file changed, 16 insertions(+)
+ create mode 100644 README.md
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master)
+$ history >> File.txt
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master)
+$ git push
+Everything up-to-date
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master)
+$ history
+    1   git status
+    2  cd ./Desctop
+    3  ls
+    4  mkdir 13121983
+    5  cd 13121983
+    6  git clone https://github.com/NatalyNykytiyk/NatalyNykytiyk.git
+    7  cd 13121983
+    8  ls
+    9  git status
+   10  cd step first
+   11  cd step_first
+   12  history
+   13  history >
+   14  History>>
+   15  history >
+   16  History >>
+   17  hystory >>File.txt
+   18  ls
+   19  history >> ./NatalyNykytiyk/File.txt
+   20  cd NatalyNykytiyk/
+   21  ls
+   22  cat File.txt
+   23  git add File.txt
+   24  cat File.txt
+   25  git add
+   26  git status
+   27  git config core.autocrif trye
+   28  git config core.autocrif true
+   29  git commit File.txt
+   30  git commit File.txt
+   31  git commit -m "Natalia" File.txt
+   32  git push
+   33  git pull
+   34  git add File.txt
+   35  git status
+   36  git pull
+   37  git log
+   38  git show b058698c884316658c46117dddc86a74acd4df3e
+   39  git log --author
+   40  git log --author NatalyNykytyuk
+   41  history >>File.txt
+   42  history >> ./NatalyNykytiyk/File.txt
+   43   history >> File.txt
+   44  git
+   45  git status
+   46  git commit Filr.txt
+   47  git commit File.txt
+   48  git commit -m 'Natalia' File.txt
+   49  git push
+   50  git diff File.txt
+   51  git diff File.txt
+   52  git add -all
+   53  git add --all
+   54  git status
+   55  git status
+   56  git push
+   57  git pull
+   58  git status
+   59  git add -A
+   60  git status
+   61  pwd
+   62  git add -A
+   63  git status
+   64  git commit -am 'Natalia"
+   65  git commit -am 'Natalia'
+   66  git status
+   67  $ git commit -am 'Natalia"
+   68  $ git commit -am "Natalia"
+   69  pwd
+   70  cd ./13121983/NatalyNykytiyk/
+   71  git status
+   72  git push
+   73  git commit -am 'Natalia"
+   74  git commit -am "dsdsd"
+   75  git push
+   76  git status
+   77  git add --all
+   78  git commit --all
+   79  git status
+   80  git commit --all
+   81  git commit -am "messagw"
+   82  git push
+   83  git pull
+   84  git push
+   85  git pull
+   86  git pull
+   87  git pull
+   88  git commit -m "natali" File3
+   89  git pull
+   90  git commit -m "Natali" File3
+   91  git pull
+   92  git commit -m "Natalia" File3
+   93  git pull
+   94  ls
+   95  pwd
+   96  git status
+   97  git commit -m "Natali"
+   98  git branch devlop
+   99  git branch develop
+  100  git merge --abort
+  101  git branch
+  102  git checkout devlop
+  103  git commit -m "Nataly"
+  104  git add test.docx
+  105  git commit -m "Nataly"
+  106  git push
+  107  git push -u origin devlop
+  108  git checkout master
+  109  git marge devlop
+  110  git pull
+  111  git pull
+  112  git rm File3
+  113  git pull
+  114  git merge --abort
+  115  git pull
+  116  git branch -m devlop develop
+  117  git branch -m devlop develop1
+  118  git branch -d devlop
+  119  git pull
+  120  history >> File.txt
+  121  git push
+  122  history
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master)
+$ history >> File1.txt
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master)
+$ git push
+Everything up-to-date
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master)
+$ history >> File2.txt
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master)
+$ git push
+Everything up-to-date
+
+student@PC-P-06 MINGW64 ~/13121983/NatalyNykytiyk (master)
+$
+
