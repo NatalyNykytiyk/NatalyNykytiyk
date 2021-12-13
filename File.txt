@@ -69,9 +69,7 @@
    11  cd step_first
    12  history
    13  history >
-   
    15  history >
-  
    17  hystory >>File.txt
    18  ls
    19  history >> ./NatalyNykytiyk/File.txt
@@ -96,6 +94,4 @@
    38  git show b058698c884316658c46117dddc86a74acd4df3e
    39  git log --author
    40  git log --author NatalyNykytyuk
-   
    43   history >> File.txt
-44fff
