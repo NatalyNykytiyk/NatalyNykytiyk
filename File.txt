@@ -97,6 +97,5 @@
    38  git show b058698c884316658c46117dddc86a74acd4df3e
    39  git log --author
    40  git log --author NatalyNykytyuk
-   41  history >>File.txt
-   42  history >> ./NatalyNykytiyk/File.txt
+   
    43   history >> File.txt
